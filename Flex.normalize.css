@@ -4,7 +4,9 @@
 }
 
 html {
-  font-size: 1.1rem;
+  font-size: 1rem;
+  text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
 }
 
 body {
@@ -18,6 +20,7 @@ body {
   background: #fcfcfc;
   word-wrap: break-word;
   font-weight: 400;
+  text-align: left;
 }
 
 img {
@@ -70,4 +73,17 @@ p {
   line-height: 1.5;
   margin-bottom: 0.5em;
   font-size: inherit;
+}
+
+button, input[type=image], input[type=submit], label[for], select, summary {
+  cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none
+}
+
+[hidden], template {
+  display:none!important;
+  visibility:hidden!important
+  }
+
+center {
+  text-align:center
 }
