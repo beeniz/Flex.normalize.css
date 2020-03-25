@@ -26,7 +26,7 @@ img {
 
 h1,h2,h3,h4,h5,h6 {
   margin: 0;
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.5em;
   padding: 0;
   display: block;
   line-height: 1.5;
@@ -62,4 +62,12 @@ span,a {
   margin: 0;
   padding: 0;
   line-height: inherit;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  margin-bottom: 0.5em;
+  font-size: inherit;
 }
